@@ -1,9 +1,9 @@
 # ✈️ Análisis y Optimización de Rutas Aéreas Comerciales mediante Ciencia de Datos
 
-**Autor**: [Tu Nombre Aquí]  
+**Autor**: [José Antonio Fernández Aranda]  
 **Universidad**: Universidad de Granada  
 **Trabajo Fin de Grado** – Grado en Ingeniería Informática y Administración de Empresas  
-**Tutor**: [Nombre del Tutor]  
+**Tutor**: [Jorge Casillas Barranquero]  
 **Curso académico**: 2024/2025
 
 ---
@@ -66,7 +66,7 @@ Instalar los requisitos con:
 pip install -r requirements.txt
 ```
 
-🧠 Objetivos principales
+##🧠 Objetivos principales
 Analizar trayectorias aéreas reales desde una perspectiva multidimensional.
 
 Evaluar métricas operativas, medioambientales y turísticas.
@@ -75,20 +75,15 @@ Identificar patrones ocultos mediante clustering.
 
 Proponer estrategias para una aviación más sostenible.
 
-📄 Documento completo
-📝 Puedes consultar el documento final del TFG aquí:
+##📄 Documento completo
+###📝 Puedes consultar el documento final del TFG aquí:
 TFG_final.pdf
 
-📜 Licencia
+##📜 Licencia
 Este proyecto se distribuye bajo licencia MIT. Puedes usarlo, adaptarlo y compartirlo, siempre que cites al autor original.
 
-🙌 Agradecimientos
-Gracias a todas las personas, compañeros, profesores y familiares que han hecho posible este proyecto, especialmente al [Nombre del Tutor] por su guía constante.
+##🙌 Agradecimientos
+Gracias a todas las personas, compañeros, profesores y familiares que han hecho posible este proyecto, especialmente a [Jorge Casillas Barranquero] por su guía constante.
 
-css
-Copiar
-Editar
-
-Si quieres, puedo generarte también el `requirements.txt` automáticamente a partir de tus notebooks. ¿Te gustaría eso?
 
 
