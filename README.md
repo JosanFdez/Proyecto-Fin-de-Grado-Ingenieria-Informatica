@@ -61,12 +61,10 @@ El repositorio contiene todo el código fuente, notebooks, datos y visualizacion
 
 Instalar los requisitos con:
 
-```bash
 pip install -r requirements.txt
-```
 ---
 
-##🧠 Objetivos principales
+## 🧠 Objetivos principales
 Analizar trayectorias aéreas reales desde una perspectiva multidimensional.
 
 Evaluar métricas operativas, medioambientales y turísticas.
@@ -77,18 +75,18 @@ Proponer estrategias para una aviación más sostenible.
 
 ---
 
-##📄 Documento completo
-###📝 Puedes consultar el documento final del TFG aquí:
+## 📄 Documento completo
+### 📝 Puedes consultar el documento final del TFG aquí:
 TFG_final.pdf
 
 ---
 
-##📜 Licencia
+## 📜 Licencia
 Este proyecto se distribuye bajo licencia MIT. Puedes usarlo, adaptarlo y compartirlo, siempre que cites al autor original.
 
 ---
 
-##🙌 Agradecimientos
+## 🙌 Agradecimientos
 Gracias a todas las personas, compañeros, profesores y familiares que han hecho posible este proyecto, especialmente a [Jorge Casillas Barranquero] por su guía constante.
 
 
