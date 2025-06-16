@@ -22,10 +22,9 @@ El repositorio contiene todo el código fuente, notebooks, datos y visualizacion
 📂 notebooks/ # Jupyter Notebooks organizados por caso de estudio
 📂 data/ # Datos crudos y procesados (CSV, XLSX)
 📂 figures/ # Visualizaciones y gráficos generados
-📂 utils/ # Scripts auxiliares (funciones, preprocesamiento)
-📄 README.md # Este archivo
-📄 requirements.txt # Librerías necesarias
-📄 TFG_final.pdf # Versión final del documento
+📄 README.md ¡
+📄 requirements.txt 
+📄 TFG_final.pdf
 
 
 ---
