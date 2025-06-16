@@ -2,7 +2,7 @@
 
 **Autor**: [José Antonio Fernández Aranda]  
 **Universidad**: Universidad de Granada  
-**Trabajo Fin de Grado** – Grado en Ingeniería Informática y Administración de Empresas  
+**Trabajo Fin de Grado** – Grado en Ingeniería Informática y Administración y Dirección de Empresas  
 **Tutor**: [Jorge Casillas Barranquero]  
 **Curso académico**: 2024/2025
 
@@ -65,6 +65,7 @@ Instalar los requisitos con:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ##🧠 Objetivos principales
 Analizar trayectorias aéreas reales desde una perspectiva multidimensional.
@@ -75,12 +76,18 @@ Identificar patrones ocultos mediante clustering.
 
 Proponer estrategias para una aviación más sostenible.
 
+---
+
 ##📄 Documento completo
 ###📝 Puedes consultar el documento final del TFG aquí:
 TFG_final.pdf
 
+---
+
 ##📜 Licencia
 Este proyecto se distribuye bajo licencia MIT. Puedes usarlo, adaptarlo y compartirlo, siempre que cites al autor original.
+
+---
 
 ##🙌 Agradecimientos
 Gracias a todas las personas, compañeros, profesores y familiares que han hecho posible este proyecto, especialmente a [Jorge Casillas Barranquero] por su guía constante.
