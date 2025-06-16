@@ -64,6 +64,7 @@ Instalar los requisitos con:
 
 ```bash
 pip install -r requirements.txt
+```
 
 🧠 Objetivos principales
 Analizar trayectorias aéreas reales desde una perspectiva multidimensional.
