@@ -64,3 +64,30 @@ Instalar los requisitos con:
 
 ```bash
 pip install -r requirements.txt
+
+🧠 Objetivos principales
+Analizar trayectorias aéreas reales desde una perspectiva multidimensional.
+
+Evaluar métricas operativas, medioambientales y turísticas.
+
+Identificar patrones ocultos mediante clustering.
+
+Proponer estrategias para una aviación más sostenible.
+
+📄 Documento completo
+📝 Puedes consultar el documento final del TFG aquí:
+TFG_final.pdf
+
+📜 Licencia
+Este proyecto se distribuye bajo licencia MIT. Puedes usarlo, adaptarlo y compartirlo, siempre que cites al autor original.
+
+🙌 Agradecimientos
+Gracias a todas las personas, compañeros, profesores y familiares que han hecho posible este proyecto, especialmente al [Nombre del Tutor] por su guía constante.
+
+css
+Copiar
+Editar
+
+Si quieres, puedo generarte también el `requirements.txt` automáticamente a partir de tus notebooks. ¿Te gustaría eso?
+
+
