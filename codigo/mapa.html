@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60c8c30fed84d7ad6fed274ca590d411 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_60c8c30fed84d7ad6fed274ca590d411" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_60c8c30fed84d7ad6fed274ca590d411 = L.map(
+                "map_60c8c30fed84d7ad6fed274ca590d411",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2f10ead5e5a53d51c76df1953c74bf21 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2f10ead5e5a53d51c76df1953c74bf21.addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            var marker_8b49b25925e5f4b7735015af89659cf0 = L.marker(
+                [40.4722, -3.5609],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_8b49b25925e5f4b7735015af89659cf0.bindTooltip(
+                `<div>
+                     Origen: MAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_82ca9cd4e86001a4d3a50130aba9c6a4 = L.marker(
+                [40.6413, -73.7781],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_82ca9cd4e86001a4d3a50130aba9c6a4.bindTooltip(
+                `<div>
+                     Destino: JFK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5a0c3a03ab48576e8e0c9072da265bd3 = L.polyline(
+                [[40.4722, -3.5609], [40.6413, -73.7781]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_5a0c3a03ab48576e8e0c9072da265bd3.bindTooltip(
+                `<div>
+                     1200 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2d8dbc56e244dfbca2aa4caa1b420be4 = L.marker(
+                [49.0097, 2.5479],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_2d8dbc56e244dfbca2aa4caa1b420be4.bindTooltip(
+                `<div>
+                     Origen: CDG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b8decde339b7c1f8785c85d3d4c9358e = L.marker(
+                [51.47, -0.4543],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_b8decde339b7c1f8785c85d3d4c9358e.bindTooltip(
+                `<div>
+                     Destino: LHR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_caffc675dcca1db7c29d37faa2a4de34 = L.polyline(
+                [[49.0097, 2.5479], [51.47, -0.4543]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_caffc675dcca1db7c29d37faa2a4de34.bindTooltip(
+                `<div>
+                     950 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b373b5bf597a8233e947cbcb17585fab = L.marker(
+                [40.6413, -73.7781],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_b373b5bf597a8233e947cbcb17585fab.bindTooltip(
+                `<div>
+                     Origen: JFK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b84398fba528ecbde1e3c7bafa734108 = L.marker(
+                [40.4722, -3.5609],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_b84398fba528ecbde1e3c7bafa734108.bindTooltip(
+                `<div>
+                     Destino: MAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a30923226678b1f92761e821266e9c2f = L.polyline(
+                [[40.6413, -73.7781], [40.4722, -3.5609]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_a30923226678b1f92761e821266e9c2f.bindTooltip(
+                `<div>
+                     1300 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4ca90ee9b96c7fa48ce2194dcb845dd1 = L.marker(
+                [51.47, -0.4543],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_4ca90ee9b96c7fa48ce2194dcb845dd1.bindTooltip(
+                `<div>
+                     Origen: LHR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_39e3c0964c1b545f43c54f92f46fc73b = L.marker(
+                [49.0097, 2.5479],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_39e3c0964c1b545f43c54f92f46fc73b.bindTooltip(
+                `<div>
+                     Destino: CDG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2104e60991ecec358962b732fdbdb1ee = L.polyline(
+                [[51.47, -0.4543], [49.0097, 2.5479]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_2104e60991ecec358962b732fdbdb1ee.bindTooltip(
+                `<div>
+                     1100 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3f209ab0e7cb76dfbff289c631a19b97 = L.marker(
+                [50.0379, 8.5622],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_3f209ab0e7cb76dfbff289c631a19b97.bindTooltip(
+                `<div>
+                     Origen: FRA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae9be7d0b5978995a2f13aff9d55d83f = L.marker(
+                [40.6413, -73.7781],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_ae9be7d0b5978995a2f13aff9d55d83f.bindTooltip(
+                `<div>
+                     Destino: JFK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_07b1e1ba5580099bdbaaefa00f79f47e = L.polyline(
+                [[50.0379, 8.5622], [40.6413, -73.7781]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_07b1e1ba5580099bdbaaefa00f79f47e.bindTooltip(
+                `<div>
+                     1250 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_05af1a1c265cf4a27721cf67c335cbd3 = L.marker(
+                [37.6213, -122.379],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_05af1a1c265cf4a27721cf67c335cbd3.bindTooltip(
+                `<div>
+                     Origen: SFO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_80985685386731c097986e5be381de11 = L.marker(
+                [51.47, -0.4543],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_80985685386731c097986e5be381de11.bindTooltip(
+                `<div>
+                     Destino: LHR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_acc595b7b2348a12c262cce759310a9d = L.polyline(
+                [[37.6213, -122.379], [51.47, -0.4543]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_acc595b7b2348a12c262cce759310a9d.bindTooltip(
+                `<div>
+                     1600 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0691fb616876bb1e4c4386370f132897 = L.marker(
+                [33.6407, -84.4277],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_0691fb616876bb1e4c4386370f132897.bindTooltip(
+                `<div>
+                     Origen: ATL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2e4cc34748d9d8eb5791ba647d673591 = L.marker(
+                [50.0379, 8.5622],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_2e4cc34748d9d8eb5791ba647d673591.bindTooltip(
+                `<div>
+                     Destino: FRA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_36c02687ea28d082b05fe17db57e0940 = L.polyline(
+                [[33.6407, -84.4277], [50.0379, 8.5622]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_36c02687ea28d082b05fe17db57e0940.bindTooltip(
+                `<div>
+                     1000 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e1f70f9a4d669073708278c1c482cde0 = L.marker(
+                [-23.4356, -46.4731],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_e1f70f9a4d669073708278c1c482cde0.bindTooltip(
+                `<div>
+                     Origen: GRU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f0e0185a18982752906bb44ceb82e4fc = L.marker(
+                [40.4722, -3.5609],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_f0e0185a18982752906bb44ceb82e4fc.bindTooltip(
+                `<div>
+                     Destino: MAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d17e1268316b0dfd599ab70fa7b21e4e = L.polyline(
+                [[-23.4356, -46.4731], [40.4722, -3.5609]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_d17e1268316b0dfd599ab70fa7b21e4e.bindTooltip(
+                `<div>
+                     1900 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d9b0fcf753ec410e7b8440c1df3e3468 = L.marker(
+                [35.5494, 139.7798],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_d9b0fcf753ec410e7b8440c1df3e3468.bindTooltip(
+                `<div>
+                     Origen: HND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_54bb61a166d9c2c8814a4c6d5e78078a = L.marker(
+                [49.0097, 2.5479],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_54bb61a166d9c2c8814a4c6d5e78078a.bindTooltip(
+                `<div>
+                     Destino: CDG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9a5b282db2035746cf895257ea9a2071 = L.polyline(
+                [[35.5494, 139.7798], [49.0097, 2.5479]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_9a5b282db2035746cf895257ea9a2071.bindTooltip(
+                `<div>
+                     1450 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2d437a54a0fea2bf75a861908fd1eff = L.marker(
+                [-33.9399, 151.1753],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_e2d437a54a0fea2bf75a861908fd1eff.bindTooltip(
+                `<div>
+                     Origen: SYD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5cffc56ae2bac74a344402a77827774e = L.marker(
+                [40.6413, -73.7781],
+                {
+}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            marker_5cffc56ae2bac74a344402a77827774e.bindTooltip(
+                `<div>
+                     Destino: JFK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b05f2ddecdd19ac4d540f8a738810474 = L.polyline(
+                [[-33.9399, 151.1753], [40.6413, -73.7781]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60c8c30fed84d7ad6fed274ca590d411);
+        
+    
+            poly_line_b05f2ddecdd19ac4d540f8a738810474.bindTooltip(
+                `<div>
+                     1700 kg CO₂
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
